@@ -1,0 +1,84 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DumbProject",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JulianPublic",
+        "printedName": "JulianPublic",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JulianPublic",
+                "printedName": "DumbProject.JulianPublic",
+                "usr": "s:11DumbProject12JulianPublicC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11DumbProject12JulianPublicCACycfc",
+            "mangledName": "$s11DumbProject12JulianPublicCACycfc",
+            "moduleName": "DumbProject",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "haveMyCoffee",
+            "printedName": "haveMyCoffee()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DumbProject12JulianPublicC12haveMyCoffeeyyF",
+            "mangledName": "$s11DumbProject12JulianPublicC12haveMyCoffeeyyF",
+            "moduleName": "DumbProject",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11DumbProject12JulianPublicC",
+        "mangledName": "$s11DumbProject12JulianPublicC",
+        "moduleName": "DumbProject",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/julianharty\/sandbox\/DumbProject\/DumbProject\/JulianPublic.swift",
+      "kind": "StringLiteral",
+      "offset": 217,
+      "length": 31,
+      "value": "\"My coffee is served, drink it\""
+    }
+  ]
+}

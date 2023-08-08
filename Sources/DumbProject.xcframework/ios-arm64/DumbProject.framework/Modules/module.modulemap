@@ -1,0 +1,11 @@
+framework module DumbProject {
+  umbrella header "DumbProject.h"
+
+  export *
+  module * { export * }
+}
+
+module DumbProject.Swift {
+  header "DumbProject-Swift.h"
+  requires objc
+}
